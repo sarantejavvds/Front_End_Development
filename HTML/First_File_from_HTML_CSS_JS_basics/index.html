@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon_Red</title>  <!-- Name of the Page -->
+
+    <link rel="stylesheet" href="CSS_files/Homepage_background.css">
+
+ </head>
+
+ <body>
+    
+    <div class="Containing-in-a-box">
+
+     <header>   <!-- Opening header tag -->
+       <div class="header-left">
+
+        <a href="#">
+            <img src="Logo.svg" alt="DRAGON LOGO">
+        </a>
+       
+        <div class="divider hide-mobile">  </div>
+
+        <a href="#" class = "home hide-mobile">
+            HOME
+        </a>
+
+       </div>
+
+       <nav> <!-- Navigation bar opening -->
+
+        <a href="#" class="menu-open hide-desktop" >
+            <img src="Menu.svg" alt="Open-menu">
+        </a>
+
+        <ul>
+            <!-- li class="first-closemenu-li" -->
+            <li class="hide-desktop">
+
+                <a href="#" class="menu-close" >
+                    <img src="Close.svg" alt="Close menu">
+                </a>
+
+            </li>
+
+                <li> <a href="#"> Pictures </a> </li>
+                <li> <a href="#"> Videos   </a> </li>
+                <li> <a href="#"> About    </a> </li>
+
+            
+        </ul>
+
+       </nav> <!-- Navigation bar closing -->
+
+     </header>   <!-- Closing header tag -->
+
+     <main>
+
+        <h1> <img src="Visit.svg" alt="Header Text of dragon visit"> </h1>
+
+        <p class="subhead"> <img src="Dragon_desc.svg" alt="paragraph description of dragon"> </p>
+
+        <a href="#" class="primary-cta-button"> Attack !! </a>
+
+     </main>
+
+     <div class="Dragon_image_container">
+
+        <div class="Dragon">
+
+            <img src="dragon.jpeg" alt="Dragon image">
+
+            <div class="inner-circle"> </div>
+
+            <div class="outer-circle"></div>
+
+        </div>
+
+     </div>
+
+    </div>
+
+    <script>  <!-- Opening Javascript tag -->
+
+        const menu = document.querySelector('nav ul');
+        const menuButton = document.querySelector('.menu-open');
+        const closeButton = document.querySelector('.menu-close');
+
+        menuButton.addEventListener('click', ()=>{menu.classList.add('open') } );
+
+        closeButton.addEventListener('click', ()=>{menu.classList.remove('open') } );
+
+    </script> <!-- Closing Javascript tag -->
+
+ </body>
+
+</html>
