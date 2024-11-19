@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="images" href="images/icon.jpeg">
+    <title>AnimeSite</title>
+
+ </head>
+
+ <body style="background-color: yellowgreen">
+
+  <header style="background-color: orangered;">
+   <a href="#" ><h1> ANIME </h1></a> 
+    <br>   
+    <div>
+     <a href="pictures.html" target="_blank" title="pics" > Pictures </a>
+     <a href="music.html"    target="_blank" title="Audio"> Music    </a>
+     <a href="videos.html"   target="_blank" title="Video"> Video    </a>
+    </div>
+    
+    <hr>
+   </header>
+   <br>
+   
+   <p> A Website for Anime. </p>
+
+   <main>
+     <img src="images/images.png" alt="">
+
+     <div class="Form_box">
+      <p>
+         <span style="background-color: crimson;">Caution :</span> <span style="background-color: yellow;">Below options are just for fun, They don't affect or save anything in the Web. </span>
+      </p>
+
+      <div class="basic_form" style="background-color: darkgoldenrod;">
+
+         <form action="index.php" method="post" enctype="multipart/form-data">
+
+            <div>
+               <label for="title"> Title : </label>
+
+               <label for="Mr."> Mr. </label>
+               <input type="radio" id="Mr." name="title" value="Mr." required>
+
+               <label for="Mrs."> Mrs. </label>
+               <input type="radio" id="Mrs." name="title" value="Mrs."required>
+
+               <label for="Dr."> Dr. </label>
+               <input type="radio" id="Dr." name="title" value="Dr." required>
+            </div>
+
+            <br>
+
+            <div>
+              <label for="fname"> First Name : </label>
+              <input type="text" id="fname" name="fname" min="1" maxlength="50" placeholder="YourFirstName" required>
+            </div>
+
+            <br>
+
+            <div>
+              <label for="lname"> Last Name : </label>
+              <input type="text" id="lname" name="lname" min="1" maxlength="20" placeholder="YourLastName" required>
+            </div>
+
+            <br>
+
+            <div>
+               <label for="email"> Email : </label>
+               <input type="email" id="email" name="email" placeholder="Anything@gmail.com">
+            </div>
+
+            <br>
+
+            <div>
+               <label for="pass"> Password : </label>
+               <input type="password" id="pass" name="pass" maxlength="12" required>
+            </div>
+
+            <br>
+
+            <div>
+               <label for="Phone"> Phone #: </label>
+               <input type="tel" id="Phone" placeholder="0123456789">
+            </div>
+
+            <br>
+
+            <div>
+               <label for="bdate"> Birthday : </label>
+               <input type="date" id="bdate" name="bdate">
+            </div>
+
+            <br>
+
+            <div>
+               <label for="quantity"> Quantity : </label>
+               <input type="number" id="quantity" name="quantity" min="0" max="99">
+            </div>
+
+            <br>
+
+            <div>
+               <label for="payment"> Payment : </label>
+               <select name="payment" id="payment">
+                 <option value=""> VISA </option>
+                 <option value=""> MasterCard </option>
+                 <option value=""> GiftCard </option>
+               </select>
+            </div>
+
+            <br>
+
+            <div>
+               <label for="subs"> Subscribe : </label>
+               <input type="checkbox" id="subs" name="subs">
+            </div>
+
+            <br>
+
+            <div>
+               <label for="comment"> Comment : </label>
+               <textarea name="comment" id="comment" rows="5" cols="25"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+               <label for="file"> File : </label>
+               <input type="file" id="file" accept="images, videos, file">
+            </div>
+
+            <br>
+            
+            <div>
+               <input type="reset">
+            </div>
+            <br>
+            <div>
+               <input type="submit">
+            </div>
+
+         </form>
+
+      </div>
+
+
+     </div>
+
+   </main>
+    
+   <br>
+
+  <footer style="background-color: orangered;">
+
+     Author : Saran
+     <br>
+     &copy; Copyright reserved
+     <br>
+
+  </footer>
+     
+ </body>
+</html>
