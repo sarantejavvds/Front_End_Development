@@ -1,0 +1,106 @@
+.boxfull
+{
+ height: 300px;
+
+ width: 300px;
+
+ background-color: rgb(0, 0, 0);
+
+ margin-top: 10%;
+
+ margin-left: 40% ;
+}
+
+.boxfull img
+{
+    padding: 50px;
+}
+
+body
+{
+    background-color: grey;
+}
+
+#box
+{
+    animation-name: Rotate_Right;
+
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+}
+
+#box:hover
+{
+    animation-name: glow;
+}
+
+/*
+#box
+{
+    animation-name: color;
+}
+*/
+
+@keyframes glow
+{
+    50%{ box-shadow: 0px 0px 50px yellow; }
+}
+
+@keyframes color
+{
+    0%
+    {
+        background-color: rgb(0, 0, 0);
+    }
+    20%
+    {
+        background-color: red;
+    }
+    40%
+    {
+        background-color: yellow;
+    }
+
+}
+
+@keyframes Slide_Left
+{
+    from
+    {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes Slide_Right
+{
+    to
+    {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes Slide_Up
+{
+    from
+    {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes Slide_Down
+{
+    to
+    {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes Rotate_Right 
+{
+  50%
+  {
+    transform: rotateZ(360deg);
+  }    
+}
+
