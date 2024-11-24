@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(216, 136, 78);
+}
+
+.icons
+{
+    margin-top: 0;
+
+    text-align: right;
+}
+
+.icons a
+{
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+
+.fa-sharp-duotone.fa-solid.fa-house-chimney
+{
+    color: gray;
+}
+
+.fa-sharp-duotone.fa-solid.fa-house-chimney:hover
+{
+    color: rgb(184, 182, 182);
+}
+
+.fa-brands.fa-youtube
+{
+    color: red;
+}
+
+.fa-brands.fa-youtube:hover
+{
+    color: rgb(211, 108, 108);
+}
+
+/*------------------------------------------------------------*/
+
+.gallery
+{
+    display: inline-block;
+
+    border: 1px solid grey;
+
+    margin: 5px;
+
+    width: 200px;
+}
+
+.gallery .description
+{
+    padding: 10px;
+
+    text-align: center;
+}
+
+.gallery:hover
+{
+ border: 1px solid red;
+}
+
+.gallery img
+{
+    width: 100%;
+
+    height: auto;
+}
+
+h1
+{
+    color: purple;
+
+    width: 20%;
+}
