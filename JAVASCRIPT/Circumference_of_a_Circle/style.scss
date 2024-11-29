@@ -1,0 +1,19 @@
+$color:rgb(187, 138, 47);
+body
+{
+    background-color: $color;
+}
+
+$font_h1_color:rgb(172, 11, 11);
+#my_H1
+{
+    color:$font_h1_color;
+}
+
+$submitbutton: rgb(243, 228, 12);
+button
+{
+    background-color:$submitbutton;
+    
+    border-radius: 20px;
+}

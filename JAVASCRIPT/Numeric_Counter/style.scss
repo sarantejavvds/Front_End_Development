@@ -1,0 +1,47 @@
+#count_Label
+{
+    display: block;
+
+    text-align: center;
+
+    font-size: 10em;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Button_Container
+{
+    text-align: center;
+}
+
+$w:white;
+$lb:rgb(26, 190, 190);
+$t_lb:rgb(93, 91, 214);
+.Buttons
+{
+    padding: 10px 20px;
+
+    font-size: 2em;
+
+    color: $w;
+
+    background-color: $lb;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color 0.25s;
+}
+
+$g:rgb(3, 156, 3);
+.Buttons:hover
+{
+    background-color: $g;
+}
+
+$b:rgb(245, 233, 69);
+body
+{
+    background-color: $b;
+}

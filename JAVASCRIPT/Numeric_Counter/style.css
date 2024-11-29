@@ -1,0 +1,28 @@
+#count_Label {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#Button_Container {
+  text-align: center;
+}
+
+.Buttons {
+  padding: 10px 20px;
+  font-size: 2em;
+  color: white;
+  background-color: rgb(26, 190, 190);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.Buttons:hover {
+  background-color: rgb(3, 156, 3);
+}
+
+body {
+  background-color: rgb(245, 233, 69);
+}/*# sourceMappingURL=style.css.map */
