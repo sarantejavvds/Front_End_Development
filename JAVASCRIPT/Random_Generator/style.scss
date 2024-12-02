@@ -1,0 +1,41 @@
+$bc:rgb(245, 194, 99);
+$ff:Verdana, Geneva, Tahoma, sans-serif;
+body
+{
+    background-color: $bc;
+
+    font-family: $ff;
+
+    text-align: center;
+}
+
+.Labels
+{
+    font-size: 3em;
+
+    padding: 20px 20px;
+}
+
+$lb:rgb(0, 204, 255);
+#my_Button
+{
+    font-size: 3em;
+
+    padding: 5px 25px;
+
+    border-radius: 20px;
+
+    background-color: $lb;
+}
+
+$r:red;
+h1
+{
+    color: $r;
+}
+
+$fr:rgb(170, 10, 10);
+h2
+{
+    color: $fr;
+}

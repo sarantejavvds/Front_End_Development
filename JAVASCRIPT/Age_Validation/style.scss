@@ -1,0 +1,30 @@
+$wbc:rgb(184, 150, 88);
+$ff:Verdana, Geneva, Tahoma, sans-serif;
+body
+{
+ font-family: $ff;
+
+ font-size: 2em;
+
+ background-color: $wbc;
+}
+
+$bc1:yellow;
+#my_Submit_1
+{
+    font-size: 1em;
+
+    border-radius: 20px;
+
+    background-color: $bc1;
+}
+
+$bc2:rgb(54, 54, 212);
+#my_Submit_2
+{
+    font-size: 1em;
+
+    border-radius: 20px;
+
+    background-color: $bc2;
+}

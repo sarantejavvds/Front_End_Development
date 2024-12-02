@@ -1,0 +1,18 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  background-color: rgb(184, 150, 88);
+}
+
+#my_Submit_1 {
+  font-size: 1em;
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+#my_Submit_2 {
+  font-size: 1em;
+  border-radius: 20px;
+  background-color: rgb(54, 54, 212);
+}
+/*# sourceMappingURL=style.css.map */
