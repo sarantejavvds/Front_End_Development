@@ -1,0 +1,23 @@
+$back: yellow;
+
+body
+{
+    background-color: $back;
+}
+
+$ac :hsl(240, 100%, 50%);
+#Answer_text
+{
+    font-size: x-large;
+
+    font-weight: bold;
+
+    color: $ac;
+}
+
+$h:hsl(240, 50%, 40%);
+#Answer_text:hover
+{
+
+    color: $h;
+}

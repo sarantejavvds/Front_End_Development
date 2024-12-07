@@ -1,0 +1,106 @@
+$cb: rgb(245, 245, 93);
+$b:hsl(0, 0, 95%);
+body
+{
+ background-color: $cb;
+
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+$h1c:hsl(223, 100%, 64%);
+h1
+{
+  background-color: $h1c;
+}
+
+$f: hsl(0, 33%, 86%);
+$fbs: hsl(0,0, 0%, 0.3);
+form
+{
+  background-color: $f;
+
+  text-align: center;
+
+  max-width: 350px;
+
+  margin: auto;
+
+  padding: 25px;
+
+  box-shadow: 5px 5px 15px $fbs;
+
+  border-radius: 20px;
+
+}
+
+$tb: hsl(0,0, 0%, 0.8);
+#text_Box
+{
+  width: 50%;
+
+  text-align: center;
+
+  font-size: 2em;
+
+  border: 2px solid $tb;
+
+  border-radius: 4px;
+
+  margin-bottom: 15px;
+}
+
+label
+{
+  font-size: 1.5em;
+
+  font-weight: bold;
+}
+
+$bcb: hsl(0, 100%, 60%);
+$cb:white;
+button
+{
+  margin-top: 15px;
+
+  background-color: $bcb;
+
+  color: $cb;
+
+  font-size: 1.5em;
+
+  border: none;
+
+  padding: 10px 15px;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+$cbh: hsl(0, 100%, 50%);
+button:hover
+{
+  background-color: $cbh;
+}
+
+#result
+{
+  font-size: 1.75em;
+
+  font-weight: bold;
+}
+
+
+/*
+$cc: red;
+#To_Celcius
+{
+  background-color: $cc;
+}
+
+$fc: orange;
+#To_Fahrenheit
+{
+ color: $fc;
+}
+ */
