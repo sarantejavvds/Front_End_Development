@@ -1,0 +1,74 @@
+
+body
+{
+    background-color: aquamarine;
+}
+
+$ta: center;
+$fw: bold;
+#container
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: $ta;
+
+    font-size: 2rem;
+
+    font-weight: $fw;
+}
+
+$cbb: hsl(210, 100%, 50%);
+$cbt: yellow;
+button
+{
+    font-size: 1.5rem;  
+
+    font-weight: $fw;
+    
+    padding: 10px 15px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    background-color: $cbb;
+
+    color: $cbt;
+
+    cursor: pointer;
+}
+
+$h: hsl(0, 100%, 60%);
+button:hover
+{
+    background-color: $h;
+}
+
+$a: hsl(0, 100%, 70%);
+button:active
+{
+    background-color: $a;
+}
+
+input
+{
+    font-size: 2rem;
+
+    width: 150px;
+
+    text-align: $ta;
+
+    font-weight: $fw;
+}
+
+#Dice_Result
+{
+    margin: 25px;
+}
+
+#Dice_Images img
+{
+    width: 150px;
+
+    margin: 25px;
+}
