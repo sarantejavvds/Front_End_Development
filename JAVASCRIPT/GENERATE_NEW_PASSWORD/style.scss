@@ -1,0 +1,28 @@
+$b: wheat;
+$c_lb:#4ecca3;
+$c_h:#232931;
+$ta:center;
+
+body
+{
+    background-color: $b;
+}
+
+h1 
+{
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 $c_h;
+    font-size: 4.5rem;
+    color: $c_lb;
+    text-align: $ta;
+}
+
+
+p 
+{
+    font-size: 2rem;
+    color: $c_lb;
+    font-family: "Indie Flower", cursive;
+    text-align: $ta;
+}

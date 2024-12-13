@@ -1,0 +1,86 @@
+$c: center;
+$b: bold;
+$w:white;
+$cd: rgba(1, 52, 194, 0.75);
+$ct: rgba(255, 29, 29, 0.774);
+$c_gr: hsl(0, 0%, 100%, 0.5);
+$fs: 4rem;
+$wi: 100%;
+$blur:1px;
+$p: 100px;
+
+body
+{
+    background-image: url(pic.jpg);
+
+    background-position: $c;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    margin: 0;
+}
+
+#clock_container
+{
+    display: flex;
+
+    justify-content: $c;
+
+    align-items: $c;
+
+    height: 100vh;
+}
+
+#clock_date
+{
+    font-family: monospace;
+
+    font-size: $fs;
+
+    font-weight: $b;
+
+    text-align: $c;
+
+    color: $cd;
+
+    backdrop-filter:  blur($blur);
+
+    background-color: $c_gr;
+
+    width: $wi;
+
+    position: absolute;
+
+    top: $p;
+
+    flex-direction: column;
+}
+
+#clock_time
+{
+    font-family: monospace;
+
+    font-size: $fs;
+
+    font-weight: $b;
+
+    text-align: $c;
+
+    color: $ct;
+
+    backdrop-filter:  blur($blur);
+
+    background-color: $c_gr;
+
+    width: $wi;
+
+    position: absolute;
+
+    bottom: $p;
+
+    flex-direction: column;
+}
