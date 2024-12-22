@@ -1,0 +1,120 @@
+$c: center;
+$c_b: hsl(0, 0%, 95%);
+$c_C: hsl(0, 0%, 15%);
+$c_d: hsl(0, 0%, 20%);
+$c_B: hsl(0, 0%, 30%);
+$c_Bh: hsl(0, 0%, 40%);
+$c_Ba: hsl(0, 0%, 50%);
+$c_ob:hsl(35, 100%, 55%);
+$c_obh:hsl(35, 100%, 65%);
+$c_oba:hsl(35, 100%, 75%);
+$cw:white;
+
+body
+{
+    margin : 0;
+
+    display: flex;
+
+    justify-content: $c;
+
+    align-items: $c;
+
+    height: 100vh;
+
+    background-color: $c_b;
+    
+}
+
+#CALCULATOR
+{
+    //padding: 15px 15px 15px 15px ;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: $c_C;
+
+    border-radius: 15px;
+
+    max-width: 600px;
+
+   // max-height: 800px;
+
+    overflow: hidden;
+   
+}
+
+#display
+{
+    width: 100%;
+
+    padding: 20px;
+
+    font-size: 5rem;
+
+    text-align: left;
+
+    border: none;
+
+    color: $cw;
+
+    background-color: $c_d;
+
+}
+
+#keys
+{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+
+    padding: 25px;
+}
+
+button
+{
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 50px;
+
+    border: none;
+
+    background-color: $c_B;
+
+    color: $cw;
+
+    font-size: 3rem;
+
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: $c_Bh;
+}
+
+button:active
+{
+    background-color: $c_Ba;
+}
+
+.operator_button
+{
+    background-color: $c_ob;
+}
+
+.operator_button:hover
+{
+    background-color: $c_obh;
+}
+
+.operator_button:active
+{
+    background-color: $c_oba;
+}

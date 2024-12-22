@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: aquamarine;
+}
+
+#Box1 {
+  background-color: lightgreen;
+  width: 300px;
+  height: 300px;
+  font-size: 4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}/*# sourceMappingURL=style.css.map */

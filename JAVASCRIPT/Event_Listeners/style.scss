@@ -1,0 +1,34 @@
+$c_bc:lightgreen;
+$cb:aquamarine;
+$s:300px;
+$c:center;
+
+body
+{
+    margin: 0;
+
+    background-color: $cb;
+}
+
+#Box1
+{
+    background-color: $c_bc;
+
+    width: $s;
+
+    height: $s;
+
+    font-size: 4rem;
+
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: $c;
+
+    align-items: $c;
+
+    text-align: $c;
+
+    position: relative;
+}

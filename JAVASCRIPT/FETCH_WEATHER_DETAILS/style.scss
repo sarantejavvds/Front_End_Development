@@ -1,0 +1,153 @@
+
+$n:none;
+$c:center;
+$cl:column;
+$w:white;
+$c_b:hsl(0, 0%, 95%);
+$c_cI: hsl(0, 0%, 20%, 0.3);
+$c_bt: hsl(122, 39%, 50%);
+$c_bth: hsl(122, 39%, 40%);
+$c_c1: hsl(210, 100%, 75%);
+$c_c2: hsl(40, 100%, 75%);
+$c_bs: hsla(0, 0%, 0%, 0.5);
+$c_ct_e: hsla(0, 0%, 0%, 0.75);
+
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background-color: $c_b;
+
+    margin: 0;
+
+    display: flex;
+
+    flex-direction: $cl;
+
+    align-items: $c;
+}
+
+.weather_form
+{
+    margin: 20px;
+}
+
+.city_Input
+{
+    padding: 10px;
+
+    font-size: 2rem;
+
+    font-weight: bolder;
+
+    border: 2px solid $c_cI;
+
+    border-radius: 10px;
+
+    margin: 10px;
+
+    width: 300px;
+}
+
+button[type="submit"]
+{
+    padding: 10px 20px;
+
+    font-weight: bolder;
+
+    font-size: 2rem;
+
+    background-color: $c_bt;
+
+    color: $w;
+
+    border: $n;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color: $c_bth;
+}
+
+.card
+{
+    background: linear-gradient(180deg, $c_c1, $c_c2);
+
+    padding: 50px;
+
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 5px $c_bs;
+
+    min-width: 300px;
+
+    display: flex;
+
+    flex-direction: $cl;
+
+    align-items: center;
+
+}
+
+h1
+{
+    font-size: 3.5rem;
+
+    margin-top: 0;
+
+    margin-bottom: 25px;
+}
+
+p
+{
+    font-size: 1.5rem;
+    
+    margin: 5px 0;
+}
+
+.city_Display, .temperature_Display
+{
+    font-size: 3.5rem;
+
+    font-weight: bolder;
+
+    color: $c_ct_e;
+
+    margin-bottom: 25px;
+}
+
+.humidity_Display
+{
+    font-weight: bolder;
+
+    margin-bottom: 25px;
+}
+
+.description_Display
+{
+    font-style: italic;
+
+    font-weight: bolder;
+
+    font-size: 2rem;
+}
+
+.weather_Emoji
+{
+    margin: 0;
+
+    font-size: 7.5rem;
+}
+
+.Error_Display
+{
+    font-size: 2.5rem;
+
+    font-weight: bold;
+
+    color: $c_ct_e;
+}
